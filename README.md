@@ -2,7 +2,7 @@
 
 The goal of this project is to use texture projection in order to map an image in a 3d object. In order to work with projection transformations is important to define the different coordinate systems involved. There are several coordinate systems but for this project only world, clip and view space are important. World space as its name suggests is the coordinate system of all objects relative to a world, while the clip space refers to a specific coordinate system within a range so anything out of range will be clipped, and finally the view space that corresponds to the camera point of view.
 
-The object where the texture will be projected for now can be a simple block. In order to get the image in the proper coordinate system is neccesary to do some matrix multiplication to go from world space into clip space and finally perspective division is applied. The mathematical representation would be:
+The object where the texture will be projected for now can be a simple block. In order to get the image in the proper coordinate system is necessary to do some matrix multiplication to go from world space into clip space and finally perspective division is applied. The mathematical representation would be:
 ```
     [x', y', z', 1] = (1 / w) [x, y, z, w]
 ```
