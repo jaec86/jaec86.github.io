@@ -1,0 +1,9 @@
+html,
+body {
+    width: 100vw;
+    height: 100vh;
+    font-feature-settings: "lnum";
+    @apply bg-gray-300
+    font-raleway
+    text-gray-800;
+}
