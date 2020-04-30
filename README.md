@@ -19,4 +19,4 @@ The perlin noise is used to generate the objects path, which involves three step
 
 For the cursor animation a linear interpolation function would be use to get the repel effect of the objects from the cursor. Most languages include a lerp function so is not necessary to implement this. For projection transformation, poisoon disk sampling algorithm and perlin noise a library called threejs would be used.
 
-[DEMO](https://jaec86.github.io/dist/)
+[DEMO](https://jaec86.github.io/amt-workshop1/)
